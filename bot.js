@@ -26,6 +26,17 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
  
+client.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING_Dz `); 
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
 
 
 client.on("message", message => {
